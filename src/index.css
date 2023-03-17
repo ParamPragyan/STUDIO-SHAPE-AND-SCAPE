@@ -1,13 +1,20 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Eagle+Lake&family=Poppins:wght@600&family=Splash&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-primary: #0dff00;
+  --color-secondary: #b39e86;
+  --color-tertiary: #241c13;
+  --color-white: #fff;
 }
+.body{
+  background-color: black;
+}
+
