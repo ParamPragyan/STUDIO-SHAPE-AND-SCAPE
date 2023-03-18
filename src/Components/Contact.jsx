@@ -1,9 +1,15 @@
 import React from 'react'
+import ContactForm from './ContactForm'
+import "./Contact.css"
+import bgi from "../assets/heroimg.png"
 
 const Contact = () => {
   return (
 <section className='hero'>
-        <h1>Welcome to Contact page</h1>
+<img className="bgimg" src= {bgi} alt = 'header img' />
+
+        
+        <ContactForm/>
     </section>  )
 }
 

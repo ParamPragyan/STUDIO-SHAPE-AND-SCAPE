@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from ".././assets/Logo.png"
 
 import "./NavBar.css";
 
@@ -48,10 +49,12 @@ const NavBar = () => {
     // </div>
 
     <div className={color ? "header header-bg" : 'header'}>
-      <div className="container">
+      <div>
         <div className="nav-bar">
-          <h1 className="logo">Logo</h1>
-
+          {/* <h1 className="logo">Logo</h1> */}
+          <Link to="/">
+            <img className="logo" src={logo} alt="logo" width={50} />
+          </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li onClick={handleClick}>
               <NavLink className="nav-link" to="/">
