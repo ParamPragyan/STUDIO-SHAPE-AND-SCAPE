@@ -24,7 +24,7 @@ background-size: cover;
 }
 
 .form-field {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .form-field input,
@@ -45,9 +45,14 @@ box-shadow: inset 5px 5px 9px #1b1b1b,
 .form-field textarea {
     height: 200px;
 }
-
+label {
+    padding-bottom: 1rem;
+}
 .form-field label {
     font-size: 14px;
+    color: #00ff15;
+    font-family: Poppins;
+    
 }
 
 form .name-email {

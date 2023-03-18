@@ -2,6 +2,7 @@ import React from 'react'
 
 import "./ContactForm.css"
 import BGI from "../assets/bg1.jpg"
+import BGI2 from "../assets/shape & scape (1).gif"
 const ContactForm = () => {
   return (
     <div className='section'>
@@ -12,7 +13,7 @@ const ContactForm = () => {
 
                 <p>Lorem ipsum dolor sit amet, <span className='special-word'>consectetuer</span> adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
 
-                <img src = {BGI} className='bg-img' alt='get in touch'/>
+                <img src = {BGI2} className='bg-img' alt='get in touch'/>
 
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque <span className='special-word'>penatibus</span> et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
 

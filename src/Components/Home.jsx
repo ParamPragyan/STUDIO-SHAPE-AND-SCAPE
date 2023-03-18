@@ -13,7 +13,7 @@ const Home = () => {
             <p className='text-white'>The best Architecture firm in the town</p>
 
             <p className='text-lime-300	'>
-                Book your Appointment <span className='special-word'>(+91) 12345-67890</span>
+                Book your Appointment Now at <span className='special-word'>(+91) 12345-67890</span>
             </p>
         </div>
     </div>
