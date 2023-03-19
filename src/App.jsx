@@ -7,7 +7,7 @@ import About from './Components/About';
 import Services from './Components/Services';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
-
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
        <Route path='/contact' element = {<Contact/>}/>
     </Routes>
     </div>
-  
+    <Footer />
     </>
     
     </div>
