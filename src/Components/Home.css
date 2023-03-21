@@ -2,18 +2,20 @@
 .hero-img {
     height: 100vh;
     width: 100%;
-    background-image: url('../../public/bg3.jpg');
+    background-image: url('../../public/home-1.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     position: relative;
+    
 }
 
 .hero-content {
     position: absolute;
+    width: 100%;
     top: 36%;
-    left: 6rem;
-}
+    left: 50%;
+    transform: translate(-50%, 0);}
 
 .hero-content p {
     font-size: 20px;
@@ -23,18 +25,18 @@
     /* font-family: 'Eagle Lake'; */
     font-weight: 900;
     text-transform: none;
-    font-size: 6rem;
+    font-size: 6.6rem;
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 2px rgb(255, 255, 255);
 
 }
 .main-span {
     font-weight: 100;
-    font-family: 'Eagle Lake', cursive;
-    color: rgba(87, 200, 26, 0.345);
-    font-size: 5rem;
+    /* font-family: 'Eagle Lake', cursive; */
+    font-family: C-name;
+    color: rgb(255, 255, 255);
+    font-size: 5.6rem;
 
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
 
 
 }

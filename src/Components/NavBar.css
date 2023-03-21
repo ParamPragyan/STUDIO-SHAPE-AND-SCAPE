@@ -17,8 +17,8 @@
   align-items: center;
   justify-content: space-between;
   height: 90px;
-  padding-right: 5rem;
-  padding-left: 3.3rem;
+  padding-right: 13.8rem;
+  padding-left: 12.5rem;
   padding-bottom: 1rem;
 
 }
@@ -33,9 +33,9 @@
   transition: 1s;
 
 }
-.logo:hover {
+/* .logo:hover {
   transform: rotate(60deg);
-}
+} */
 
 .nav-menu {
   display: flex;
@@ -55,7 +55,7 @@
 
 .nav-menu .nav-link:hover,
 .active {
-  color: rgb(0, 255, 34) !important;
+  color: rgb(91, 211, 26) !important;
 }
 
 .hamburger {

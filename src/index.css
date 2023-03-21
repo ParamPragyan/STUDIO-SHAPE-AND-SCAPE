@@ -22,6 +22,21 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 30px;
 }
+.strape {
+  height: 50px;
+  width: 100%;
+}
+.heading-home{
+  width: 100%;
+}
 
+.wid-hr {
+  width: 75%;
+  margin: auto;
+  padding-left: 3rem;
+}
 
-
+@font-face {
+  font-family: C-name;
+  src: url(../public/swis721_cn_bt_roman.ttf);
+}
