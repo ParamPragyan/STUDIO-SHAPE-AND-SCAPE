@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className='grid grid-column-1 md:grid-cols-2 lg:grid-cols-4 gap-2'>
                         <div>
                             <h4 className='pb-4 font-bold text-xl'>OPENING HOURS</h4>
-                            <table class="table-auto border-collapse  border border-slate-400">
+                            <table className="table-auto border-collapse  border border-slate-400">
 
                                 <tbody >
                                     <tr>

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import NavBar from './Components/NavBar';
@@ -8,6 +7,7 @@ import Services from './Components/Services';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+// import Slider2 from './Components/Slider-second/Slider2';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
        <Route path='/contact' element = {<Contact/>}/>
     </Routes>
     </div>
+    {/* <Slider2/> */}
     <Footer />
     </>
     

@@ -1,0 +1,10 @@
+.stats h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.stats p {
+    font-size: .75rem;
+    color: #666773;
+}

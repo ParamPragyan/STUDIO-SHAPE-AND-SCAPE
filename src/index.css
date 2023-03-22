@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Eagle+Lake&family=Poppins:wght@600&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
+*,
+*::before,
+*::after
+ {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
