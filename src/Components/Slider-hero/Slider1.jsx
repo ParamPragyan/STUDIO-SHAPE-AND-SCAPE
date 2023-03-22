@@ -32,11 +32,12 @@ function Slider1() {
         // style={{ backgroundImage: `url('${slides[0].url}')` }}
         className=" h-full w-full duration-500 "
       > 
-        <img className="rounded-b-[30%]"
+        <img className=" rounded-b-[30%]"
           src={slides[currentIndex].img}
           alt=""
         />
       </div>
+      <div className="overlay"/>
       <div>
         <BsChevronCompactLeft
           onClick={prevSlide}
