@@ -26,6 +26,10 @@ function Slider1() {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
+
+ 
+  
+
   return (
     <div className="px-[10rem] ]">
       <div
