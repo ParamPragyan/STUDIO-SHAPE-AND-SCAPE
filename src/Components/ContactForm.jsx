@@ -13,11 +13,10 @@ const ContactForm = () => {
 
                 <p>Lorem ipsum dolor sit amet, <span className='special-word'>consectetuer</span> adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
 
-                <img src = {BGI2} className='bg-img' alt='get in touch'/>
+                {/* <img src = {BGI2} className='bg-img' alt='get in touch'/> */}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.339269420912!2d83.9915256!3d21.4944271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a21170383741b6f%3A0x79270ff98203a1bf!2sStudio%20Shape%20and%20Scape!5e0!3m2!1sen!2sin!4v1679562989526!5m2!1sen!2sin"  referrerpolicy="no-referrer-when-downgrade" className='bg-img w-full' aria-level={'Google Maps'}></iframe>
 
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque <span className='special-word'>penatibus</span> et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, <span className='special-word'>fringilla</span> vel, aliquet nec, vulputate eget, arcu. ILorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             </div>
 
             <div>
@@ -25,7 +24,7 @@ const ContactForm = () => {
                     Mail <span>us</span>
                 </h1> */}
 
-                <form className='form pt-10'>
+                <form className='form pt-[4rem]'>
                     <div className='form-field name-email'>
                         <div>
                             <label>Name</label>
@@ -54,7 +53,7 @@ const ContactForm = () => {
                     </div>
                 </form>
 
-                <button>Submit</button>
+                <button>Send Request</button>
             </div>
         </div>
     </div>
