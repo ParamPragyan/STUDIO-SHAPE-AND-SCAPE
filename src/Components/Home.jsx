@@ -1,4 +1,5 @@
 import React from 'react'
+import ChooseUs from './ChooseUs/ChooseUs'
 import "./Home.css"
 import Slider1 from './Slider-hero/Slider1'
 import Slider2 from './Slider-second/Slider2'
@@ -24,6 +25,7 @@ const Home = () => {
     </div>
     <Stats/>
     <Slider2/>
+    <ChooseUs/>
     </section>
     )
 }

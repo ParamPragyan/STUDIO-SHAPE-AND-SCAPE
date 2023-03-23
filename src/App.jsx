@@ -7,6 +7,7 @@ import Services from './Components/Services';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+
 // import Slider2 from './Components/Slider-second/Slider2';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     </Routes>
     </div>
     {/* <Slider2/> */}
+    
     <Footer />
     </>
     
