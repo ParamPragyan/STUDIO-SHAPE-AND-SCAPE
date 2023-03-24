@@ -1,5 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+
 import NavBar from './Components/NavBar';
 import Home from "./Components/Home"
 import About from './Components/About';
@@ -13,7 +14,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-    <>
+    
     <NavBar/>
     <div className='Hero'>
     <Routes>
@@ -26,8 +27,9 @@ function App() {
     </div>
     {/* <Slider2/> */}
     
-    <Footer />
-    </>
+    <Footer /> 
+ 
+
     
     </div>
   );

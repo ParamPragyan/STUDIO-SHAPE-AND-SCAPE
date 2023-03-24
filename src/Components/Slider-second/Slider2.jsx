@@ -24,6 +24,7 @@ SwiperCore.use([Autoplay]);
 const Slider2 = () => {
   return (
     <div className="container-slider">
+        <div className='h-1 m-0 mt-[4rem] right-2 absolute'><hr className='m-0 mt-[4rem] right-2 absolute w-[20%]'/></div> 
         <h1 className='heading'>Our Services</h1>
         <Swiper
         effect={'coverflow'}
