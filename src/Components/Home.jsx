@@ -4,6 +4,7 @@ import "./Home.css"
 import Slider1 from './Slider-hero/Slider1'
 import Slider2 from './Slider-second/Slider2'
 import Stats from './Slider-second/Stats/Stats'
+import Habout from './Home-About/Habout'
 import { FaWhatsapp } from "react-icons/fa";
 
 
@@ -33,7 +34,8 @@ const Home = () => {
             </p> */}
         
     </div>
-    <Stats/>
+    <Stats/> 
+    <Habout/>
     <Slider2/>
     <ChooseUs/>
     </section>

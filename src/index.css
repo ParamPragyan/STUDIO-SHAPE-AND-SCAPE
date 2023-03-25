@@ -23,6 +23,7 @@ html {
   --color-secondary: #b39e86;
   --color-tertiary: #241c13;
   --color-white: #fff;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .body{
   background-color: black;
@@ -51,8 +52,13 @@ html {
   src: url(../public/swis721_cn_bt_roman.ttf);
 }
 
-.wa {
-  
+.icon-txt {
+  right: 6rem;
+        top: 42rem;
+        color: #fff;
+        z-index: 1001;
+        position: fixed;
+        display: none;
 }
 .fixed-icon {
   display: flex;
@@ -96,19 +102,20 @@ html {
   z-index: -10;
 }
 .fixed-icon:hover {
-  transform: rotate(20deg);
-}
+  content: '';
+  background: black;
+  border: solid 2px #1eff00;
 
-.parallelogram {
-  width: 50px;
-  height: 50px;
-  transform: skew(20deg);
-  background: #333;
-}
 
-.triangle-bottom-left {
-  width: 0;
-  height: 0;
-  border-bottom: 50px solid #333;
-  border-right: 50px solid transparent;
+  transition:.3s ease-in-out;
 }
+.fixed-icon:hover::after {
+  border: #000 solid;
+  display: none;
+}
+/* @keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+} */
+
