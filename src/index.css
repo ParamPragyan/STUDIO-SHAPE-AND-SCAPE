@@ -91,16 +91,17 @@ html {
   border-bottom: 20px solid  rgb(38, 176, 0);
   /* border-bottom: 20px solid  rgb(255, 255, 255); */
   
-  border-right: 20px solid transparent;
+  border-right: 17px solid transparent;
   z-index: -10;
+  transition: var(--transtion);
 }
 .fixed-icon:hover {
   content: '';
   background: black;
-  border: solid 2px #1eff00;
+  border: none;
+  transform: scale(1.4);
 
-
-  transition:.3s ease-in-out;
+  transition: .8s ease-in-out;
 }
 .fixed-icon:hover::after {
   border: #000 solid;
