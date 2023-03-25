@@ -23,6 +23,7 @@ html {
   --color-secondary: #b39e86;
   --color-tertiary: #241c13;
   --color-white: #fff;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .body{
   background-color: black;
@@ -44,6 +45,11 @@ html {
   width: 75%;
   margin: auto;
   padding-left: 3rem;
+}
+
+@font-face {
+  font-family: C-name;
+  src: url(../public/swis721_cn_bt_roman.ttf);
 }
 
 
@@ -101,8 +107,9 @@ html {
   border: #000 solid;
   display: none;
 }
+/* @keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+} */
 
-@font-face {
-  font-family: C-name;
-  src: url(../public/swis721_cn_bt_roman.ttf);
-}

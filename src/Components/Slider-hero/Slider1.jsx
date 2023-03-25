@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Slider1.css";
 import img1 from "../../assets/home-1.jpg";
 import img2 from "../../assets/home-2.jpg";
@@ -16,22 +16,6 @@ function Slider1() {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // useEffect(() => {
-  //   startSlider();
-  // },[currentIndex]);
-
-  // const startSlider = () => {
-  //   setTimeout(() => {
-  //     autoLoop();
-  //   }, 3000);
-  // };
-  // const autoLoop = () => {
-  //   if (currentIndex === 0) {
-  //     setCurrentIndex(1);
-  //   } else {
-  //     setCurrentIndex(0);
-  //   }
-  // };
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
@@ -43,15 +27,21 @@ function Slider1() {
     setCurrentIndex(newIndex);
   };
 
+ 
+  
+
   return (
     <div className="px-[10rem] ]">
       <div
         // style={{ backgroundImage: `url('${slides[0].url}')` }}
         className=" h-full w-full duration-500 "
-      >
-        <img className="img" src={slides[currentIndex].img} alt="" />
+      > 
+        <img className="img"
+          src={slides[currentIndex].img}
+          alt=""
+        />
       </div>
-      <div className="overlay" />
+      <div className="overlay"/>
       <div>
         <BsChevronCompactLeft
           onClick={prevSlide}

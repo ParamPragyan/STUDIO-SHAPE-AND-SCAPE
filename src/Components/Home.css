@@ -1,4 +1,6 @@
-
+.wa {
+    position: absolute;
+}
 .hero-img {
     height: 100vh;
     width: 100%;

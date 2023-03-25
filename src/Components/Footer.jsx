@@ -64,7 +64,7 @@ export default function Footer() {
                         </form> */}
 
                             <div className=' text-xl text-white mb-2'>
-                                <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2 '><FaWhatsapp /></a>
+                                <a href="https://wa.me/8328867593" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2 '><FaWhatsapp /></a>
                                 <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaTwitter /></a>
                                 <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaLinkedin /></a>
                                 <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaInstagram /></a>
