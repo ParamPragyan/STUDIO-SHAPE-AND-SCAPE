@@ -4,7 +4,7 @@ import "./Stats.css";
 const Stats = () => {
   return (
     <>
-      <section className="flex justify-around items-center pt-[7rem] p-20 bg-black text-white stats">
+      <section className="flex justify-around items-center p-20 bg-black text-white stats">
       <div className=" flex flex-col items-center total-projects">
         <h1>99+</h1>
         <p>Total Projects</p>

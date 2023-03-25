@@ -67,7 +67,7 @@ form .name-email div {
     width: 50%;
 }
 
-button {
+.btn {
     width: 200px;
     padding: 10px;
     font-size: 16px;
@@ -83,6 +83,6 @@ button {
     margin-left: 10rem;
   }
   
-  button:hover {
+  .btn:hover {
     opacity: 0.9;
   }

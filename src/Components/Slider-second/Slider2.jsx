@@ -24,7 +24,6 @@ SwiperCore.use([Autoplay]);
 const Slider2 = () => {
   return (
     <div className="container-slider">
-        <div className='h-1 m-0 mt-[4rem] right-2 absolute'><hr className='m-0 mt-[4rem] right-2 absolute w-[20%]'/></div> 
         <h1 className='heading'>Our Services</h1>
         <Swiper
         effect={'coverflow'}
@@ -67,20 +66,80 @@ const Slider2 = () => {
         className="swiper_container"
       >
             <SwiperSlide>
-            <img src={img1} alt="img1" />
+            
+          <div class="group relative rounded-[2rem] overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div class=" ">
+        <img class="  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img1} alt="" />
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <h1 class="font-dmserif text-3xl font-bold text-white">Shooting Star</h1>
+        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+        <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+      </div>
+    </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+            
+            <div class="group relative rounded-[2rem] overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div class=" ">
+        <img class="  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img2} alt="" />
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <h1 class="font-dmserif text-3xl font-bold text-white">Shooting Star</h1>
+        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+        <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+      </div>
+    </div>
             </SwiperSlide>
             <SwiperSlide>
-            <img src={img2} alt="img2" />
+            
+            <div class="group relative rounded-[2rem] overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div class=" ">
+        <img class="  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img3} alt="" />
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <h1 class="font-dmserif text-3xl font-bold text-white">Shooting Star</h1>
+        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+        <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+      </div>
+    </div>
             </SwiperSlide>
             <SwiperSlide>
-            <img src={img3} alt="img3" />
+            
+            <div class="group relative rounded-[2rem] overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div class=" ">
+        <img class="  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img4} alt="" />
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <h1 class="font-dmserif text-3xl font-bold text-white">Shooting Star</h1>
+        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+        <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+      </div>
+    </div>
             </SwiperSlide>
             <SwiperSlide>
-            <img src={img4} alt="img4" />
+            
+            <div class="group relative rounded-[2rem] overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+      <div class=" ">
+        <img class="  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img5} alt="" />
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <h1 class="font-dmserif text-3xl font-bold text-white">Shooting Star</h1>
+        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
+        <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+      </div>
+    </div>
             </SwiperSlide>
-            <SwiperSlide>
-            <img src={img5} alt="img5" />
-            </SwiperSlide>
+
+
+
+
 
             <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
