@@ -52,14 +52,7 @@ html {
   src: url(../public/swis721_cn_bt_roman.ttf);
 }
 
-.icon-txt {
-  right: 6rem;
-        top: 42rem;
-        color: #fff;
-        z-index: 1001;
-        position: fixed;
-        display: none;
-}
+
 .fixed-icon {
   display: flex;
         flex-direction: column;
@@ -71,15 +64,15 @@ html {
           rgba(39, 218, 19, 0.74) 100%
         ); */
         /* border-radius: 0 10% 0 10% ; */
-        right: 6rem;
-        top: 37rem;
-        padding-left: 10px;
-        padding-right: 10px;
+        right: 3rem;
+        top: 40rem;
+        padding-left: 3px;
+        padding-right: 6px;
         position: fixed;
         /* -moz-border-radius: 10px;
       -webkit-border-radius: 10px; */
-      border: solid 2px #fff;
-      border-radius:  45%;
+      border: solid 1px #fff;
+      border-radius:  50%;
         z-index: 1001;
         margin-left: 2rem;
       
@@ -88,7 +81,7 @@ html {
 .fixed-icon::after {
   content: '';
   position: absolute;
-  top: 74%;
+  top: 64%;
   left: 79%;
   /* transform: translate(-50%, -50%) rotate(90deg); */
   /* background: rgb(255, 255, 255) 100%; */
@@ -98,7 +91,7 @@ html {
   border-bottom: 20px solid  rgb(38, 176, 0);
   /* border-bottom: 20px solid  rgb(255, 255, 255); */
   
-  border-right: 30px solid transparent;
+  border-right: 20px solid transparent;
   z-index: -10;
 }
 .fixed-icon:hover {
