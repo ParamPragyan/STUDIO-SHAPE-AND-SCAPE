@@ -66,7 +66,7 @@ const Slider2 = () => {
         className="swiper_container"
       >
             <SwiperSlide>
-            
+            {/* <img src={img1} alt="" /> */}
           <div class="group relative rounded-[2rem] overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
       <div class=" ">
         <img class="  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125" src={img1} alt="" />

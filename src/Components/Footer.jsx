@@ -6,7 +6,7 @@ export default function Footer() {
         <div className='strape shadow-md bg-gray-900'></div>
         <footer>
             
-            <div className='p-20 pl-40 bg-black text-gray-500 outline-red-500'>
+            <div className='p-20 pl-[6rem] bg-black text-gray-500 outline-red-500'>
                 <div className='max-w-7xl mx-auto'>
                     <div className='grid grid-column-1 md:grid-cols-2 lg:grid-cols-4 gap-2'>
                         <div>
@@ -78,8 +78,8 @@ export default function Footer() {
                             </div>
 
                         </div>
-                        <div className='mb-5'>
-                            <h4 className='pb-4 font-bold text-xl'>USEFUL LINKS</h4>
+                        <div className='mb-5 pl-[10rem]'>
+                            <h4 className='pb-4  font-bold text-xl'>USEFUL LINKS</h4>
                             <ul className='text-gray-500 cursor-pointer'>
                                 <li className='pb-4 hover:text-white '>Home</li>
                                 <li className='pb-4 hover:text-white'>About</li>
