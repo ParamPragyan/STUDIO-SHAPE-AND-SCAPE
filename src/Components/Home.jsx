@@ -1,45 +1,68 @@
-import React from 'react'
-import ChooseUs from './ChooseUs/ChooseUs'
-import "./Home.css"
-import Slider1 from './Slider-hero/Slider1'
-import Slider2 from './Slider-second/Slider2'
-import Stats from './Slider-second/Stats/Stats'
-import Habout from './Home-About/Habout'
+import React from "react";
+import ChooseUs from "./ChooseUs/ChooseUs";
+import "./Home.css";
+import Slider1 from "./Slider-hero/Slider1";
+import Slider2 from "./Slider-second/Slider2";
+import Stats from "./Slider-second/Stats/Stats";
+import Habout from "./Home-About/Habout";
 import { FaWhatsapp } from "react-icons/fa";
-
+import Logo from "../assets/Logo.png";
+import landing_img from "../assets/home-1.jpg"
 
 const Home = () => {
   return (
-    <section className='one bg-black'>
-        
-    {/* <div className='absolute left-11 z-[10000] b-10'><a className='absolute left-11 z-50 b-10' href="https://wa.me/8328867593
-" target="_blank" rel="noopener noreferrer"></a>
-<BsWhatsapp  size={50} style=  {{color: "green"}} />
-</div> */}
-{/* <a href="https://wa.me/8328867593" className='z-50 absolute w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2 '><FaWhatsapp /></a> */}
-    {/* <div className='hero-img '> */}
-    <Slider1/>
+    <section className="one pt-[8rem] text-[#fff] bg-black">
+      <div className="flex justify-between pl-[7.5rem] pr-[8rem] items-center main_landing_bar">
+        <div className="flex items-center left_part">
+          <div className="mr-[1rem]">
+            
+            <img
+              src={Logo}
+              className=" mt-[20px] h-[15.3rem] w-[15.3rem] "
+              alt=""
+            />
+          </div>
 
-        <div className='hero-content'>
-       
-       
-            <h1 className='heading-home flex justify-center items-center	'>
-                 <span className='main-heading'>STUDIO <span className='main-span'>SHAPE & SCAPE</span></span>
+          <div className="flex flex-col justify-center  main_txt">
+            <h1 className="p-0 m-0 head">
+              <span className="top_txt  mb-0 pb-0">STUDIO</span>
+              <br />
+              <span className="bottom_txt mt-0 pt-0">SHAPE & SCAPE</span>
             </h1>
+          </div>
+        </div>
+        <div className="right_part">
+          <div className="left_txt">
+            <span className="left_top" >-we provide</span>
+            <ul className="pt-[1.2rem]">
+              <li>Architecture.</li>
+              <li>Design.</li>
+              <li>Planning.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="landing_img mr-[8rem] pt-[6rem] pb-[5rem]">
+        <img className="img mr-[5rem] w-[1789.2px] h-[680px]" src={landing_img} alt="" />
+      </div>
 
-            {/* <p className='text-white'>The best Architecture firm in the town</p> */}
 
-            {/* <p className='text-lime-300	'>
-                Book your Appointment Now at <span className='special-word'>(+91) 12345-67890</span>
-            </p> */}
-        
-    </div>
-    <Stats/> 
-    <Habout/>
-    <Slider2/>
-    <ChooseUs/>
+
+      {/* <Slider1/> */}
+
+      {/* <div className="hero-content">
+        <h1 className="heading-home flex justify-center items-center	">
+          <span className="main-heading">
+            STUDIO <span className="main-span">SHAPE & SCAPE</span>
+          </span>
+        </h1>
+      </div> */}
+      <Stats />
+      <Habout />
+      <Slider2 />
+      <ChooseUs />
     </section>
-    )
-}
+  );
+};
 
-export default Home
+export default Home;

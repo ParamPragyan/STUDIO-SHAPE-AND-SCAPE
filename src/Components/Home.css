@@ -50,3 +50,37 @@
         right: 1rem;
     }
 }
+.top_txt {
+    /* font-family: C-name; 12 */
+    font-size: 10.5rem;
+    font-weight: 900;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+.bottom_txt {
+    /* 7 */
+    font-family: C-name;
+    font-size: 6.1rem;
+
+}
+.head{
+   gap: 0;
+   line-height: 1; 
+}
+
+.left_txt {
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+}
+.left_top {
+    font-size: 15px;
+    padding-bottom: 3rem;
+    font-style: italic;}
+
+ .img {
+        border-radius: 0px 5px 5px 0px;
+    }

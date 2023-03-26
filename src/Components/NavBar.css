@@ -1,36 +1,35 @@
-
+.number {
+  font-family: 'Chakra Petch', sans-serif;
+}
   .header {
     position: fixed;
     width: 100%;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    background-color: rgba(255, 255, 255, 0);
+    padding-right: 8rem;
+    padding-left: 8rem;
+    background-color: rgb(0, 0, 0);
     z-index: 1000;
 }
 
 .header-bg {
-    background-color: rgba(0, 0, 0, 0.89);
+    background-color: rgb(0, 0, 0);
     transition: 0.5s;
 }
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 90px;
-  padding-right: 13.8rem;
-  padding-left: 12rem;
-  padding-bottom: 1rem;
+  height: 80px;
+ 
+  padding-bottom: 0rem;
+  font-family: N-B-1;
+
 
 }
 
-.logo {
+.Toggle {
   /* background-image: url(../../public/Logo.png); */
-  height: 70px;
-  width: 70px;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  object-fit: contain;
-  transition: 1s;
+  font-family: N-B-1;
+  font-size: 1.7rem;
 
 }
 /* .logo:hover {
@@ -49,6 +48,7 @@
   color: var(--color-white);
   font-size: 20px;
   font-weight: 500;
+  font-family: N-B-1;
 
   transition: all 0.2s ease;
 }

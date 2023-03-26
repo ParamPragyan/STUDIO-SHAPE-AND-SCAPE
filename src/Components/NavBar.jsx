@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from ".././assets/Logo.png"
 
 import "./NavBar.css";
 
@@ -48,12 +47,12 @@ const NavBar = () => {
     //   </nav>
     // </div>
 
-    <div className={color ? "header header-bg" : 'header'}>
+    <div className={'header'}>
       <div>
         <div className="nav-bar">
           {/* <h1 className="logo">Logo</h1> */}
           <Link to="/">
-            <img className="logo" src={logo} alt="logo" width={50} />
+            <div className="Toggle pr-[3rem] text-white">Logo</div>
           </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li onClick={handleClick}>
@@ -84,6 +83,8 @@ const NavBar = () => {
             </li>
 
           </ul>
+
+          <div className="number text-white">+91 1234567890</div>
 
           <div className="hamburger" onClick={handleClick}>
             {click ? (
