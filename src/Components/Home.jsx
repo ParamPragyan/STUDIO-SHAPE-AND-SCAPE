@@ -34,7 +34,7 @@ const Home = () => {
         <div className="right_part">
           <div className="left_txt">
             <span className="left_top" >-we provide</span>
-            <ul className="pt-[1.2rem]">
+            <ul className="left_top_ul pt-[1.2rem]">
               <li>Architecture.</li>
               <li>Design.</li>
               <li>Planning.</li>
