@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "heading": "ARCHITECTURE",
+      "txt": "ARCHITECTURE",
+      "link": "/"
+    },
+    {
+      "heading": "INTERIOR",
+      "txt": "INTERIOR",
+      "link": "/"
+    },
+    {
+      "heading": "LANDSCAPE",
+      "txt": "LANDSCAPE",
+      "link": "/"
+    },
+    {
+      "heading": "OTHERS",
+      "txt": "OTHERS",
+      "link": "/"
+    }
+  ]
+}
