@@ -23,14 +23,16 @@ const Services = () => {
   <div className="box4 mx-[2.5rem]"><h1 className='sh1'>OTHERS</h1></div> */}
   {
             (data.services.map((services, idx) => (
-              <div
+              <div key={idx}
                 className={idx === currentIdx ? "box1 sh1" : "sh2 box2"}
                 onClick={() =>
 
                   setCurrentIndex(idx)}>
                 {services.heading}
                 
+                
               </div>
+              
             
               
             )))
@@ -41,10 +43,10 @@ const Services = () => {
 <div className="container2 bg-black"><div className="text-board flex justify-center items-center mx-[8rem] mb-[8rem]">
   <h1 className='text-white flex justify-center items-center'>
   {data.services[currentIdx].txt}
-            <a href={data.services[currentIdx].link} target="_blank">
+            <a href={data.services[currentIdx].link}>
               {/* {data.services[currentIdx].heading} */}
             </a>
-  </h1>
+  </h1> 
   </div></div>
 
 

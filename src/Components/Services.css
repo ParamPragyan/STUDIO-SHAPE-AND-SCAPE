@@ -38,7 +38,7 @@ cursor: pointer;
     border-top: 2px solid rgb(255, 255, 255);
     border-right: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid rgb(0, 0, 0);
-    z-index: 1100;
+    z-index: 115;
     border-radius:10px 10px 0px 0px ;
 
 }

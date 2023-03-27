@@ -9,21 +9,6 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/Logo.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
 
     <script
       type="module"
@@ -34,17 +19,13 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script type="module" src="/src/main.jsx"></script>
-    <script src="/src/index.js"></script>
+    <script src="/src/index.js" type="text/JSX"></script>
     <link rel="stylesheet" href="/src/index.css" />
     <title>STUDIO shape & scape</title>
   </head>
   <body>
-    <!-- <div className='wa absolute left-11 z-[10000] b-10'><a className='absolute left-11 z-50 b-10' href="https://wa.me/8328867593
-      " target="_blank" rel="noopener noreferrer"></a>
-      <BsWhatsapp  size={50}/>
-      </div> -->
-    <div class="fixed-icon"
-    >
+  
+    <div class="fixed-icon">
       <a
         className="absolute left-11 z-50"
         href="https://wa.me/8328867593
@@ -57,23 +38,16 @@
           src="wa.png
         "
           alt=""
-          style="padding-left: 5.3px; padding-top: 7px; padding-bottom: 7px; padding-right: 0.8px"
+          style="
+            padding-left: 5.3px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-right: 0.8px;
+          "
       /></a>
-    
     </div>
-    <h6 class="icon-txt absolute">Get in Touch</h6>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
