@@ -1,9 +1,11 @@
 import React from 'react'
 import { FaWhatsapp, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa"
+import Strape from './Strape'
 
 export default function Footer() {
     return (<>
-        <div className='strape shadow-md bg-gray-900'></div>
+        {/* <div className='strape shadow-md h-[30px] w-full'><img className='' src={bg2} alt="" /></div> */}
+        <Strape/>
         <footer>
             
             <div className='p-20 pl-[6rem] bg-black text-gray-500 outline-red-500'>

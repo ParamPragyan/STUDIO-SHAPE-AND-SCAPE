@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Eagle+Lake&family=Poppins:wght@600&family=Splash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Poppins:wght@300&display=swap');
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Delicious+Handrawn&family=Kanit&family=Poppins:wght@300&display=swap');@tailwind base;
 @tailwind components;
 @tailwind utilities;
 *,
@@ -35,8 +34,9 @@ html {
   gap: 30px;
 }
 .strape {
-  height: 50px;
   width: 100%;
+  backdrop-filter: blur(5px);
+
 }
 .heading-home{
   width: 100%;

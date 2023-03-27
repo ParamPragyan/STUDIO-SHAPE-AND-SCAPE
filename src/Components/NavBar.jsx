@@ -4,19 +4,19 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./NavBar.css";
 
+
 const NavBar = () => {
   const [click, setClick] = useState(false);
-  const [color, setColor] = useState(false);
+  // const [color, setColor] = useState(false);
+  // const changeColor = () => {
+  //   if (window.scrollY >= 100) {
+  //     setColor(true);
+  //   } else {
+  //     setColor(false);
+  //   }
+  // };
 
-  const changeColor = () => {
-    if (window.scrollY >= 100) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeColor);
+  // window.addEventListener("scroll", changeColor);
 
   const handleClick = () => {
     setClick(!click);
@@ -47,7 +47,7 @@ const NavBar = () => {
     //   </nav>
     // </div>
 
-    <div className={'header'}>
+    <div className='header-bg'>
       <div>
         <div className="nav-bar">
           {/* <h1 className="logo">Logo</h1> */}

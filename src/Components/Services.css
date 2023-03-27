@@ -1,0 +1,109 @@
+
+.box1, .box2, .box3, .box4 {
+    padding-top: 0;
+    margin-top: 0;
+    /* border: 1px solid white; */
+    background: linear-gradient(to right,black, rgb(75, 75, 75), black);
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 50px 0px rgba(69, 70, 70, 0.7);  
+    /* box-shadow: rgba(95, 98, 94, 0.25) 0px 54px 55px, rgba(103, 107, 103, 0.12) 0px -12px 30px, rgba(57, 61, 56, 0.12) 0px 4px 6px, rgba(94, 99, 95, 0.17) 0px 12px 13px, rgba(94, 93, 93, 0.09) 0px -3px 5px; */
+       border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+transition: .4s ease-in-out;
+font-family: 'Kanit';
+font-size: 1.2rem;
+cursor: pointer;
+
+
+
+}
+.box4:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 5px 15px 1px rgba(159, 164, 164, 0.7);
+    transform: scale(1.05);
+
+
+}
+.box1:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 5px 15px 1px rgba(159, 164, 164, 0.7);
+    transform: scale(1.05);
+
+
+}
+.box2:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 5px 15px 1px rgba(159, 164, 164, 0.7);
+    transform: scale(1.05);
+
+
+}
+.box3:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 5px 15px 1px rgba(159, 164, 164, 0.7);
+    transform: scale(1.05);
+
+
+}
+.container1{
+    position:relative;
+       bottom:170px;
+       
+}
+.sh1 {
+    display: flex;
+    align-items: center;
+justify-content: center;
+    height: 120px;
+    width: 160px;
+    background: black;
+    border-radius: 50%/10px 10px 10px 10px; 
+}
+
+.text-board {
+    background-color: black;
+    height: 300px;
+    max-width: 100%;
+    border: 10px solid rgb(142, 139, 139);
+    bottom: 80px;
+    position: relative;
+    border-radius: 10px;
+
+}
+.hero {
+
+    background-color: black;
+}
+
+.bgimg {
+    height: 60vh;
+}
+
+.heading-services {
+    background: transparent;
+    border-top: 130px solid rgb(0, 0, 0);
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 2px solid rgb(46, 172, 0);
+    height: 0px;
+    width: 450px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 5rem;
+    display: flex;
+    align-items: center;
+justify-content: center;
+cursor: pointer;
+font-size: 2.5rem;
+font-weight: 600;
+  }
+
+.main-s-heading {
+    bottom: 50px;
+    color: white;
+}

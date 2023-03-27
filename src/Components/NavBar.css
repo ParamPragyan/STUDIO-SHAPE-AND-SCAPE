@@ -1,12 +1,14 @@
 .number {
   font-family: 'Chakra Petch', sans-serif;
 }
-  .header {
+  .header-bg {
     position: fixed;
     width: 100%;
     padding-right: 8rem;
     padding-left: 8rem;
     background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+
     z-index: 1000;
 }
 

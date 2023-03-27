@@ -1,0 +1,13 @@
+.strape-img{
+  object-fit: cover;
+  height: 30px;
+  width: 100%;
+  background-position-y: bottom;
+  backdrop-filter: blur(5px);
+  border-top:  .5px solid rgb(136, 136, 136);
+  border-bottom:  .5px solid rgb(136, 136, 136);
+  filter: blur(2px);
+  filter: contrast(1.15);
+
+
+}
