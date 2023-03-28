@@ -118,3 +118,98 @@ html {
   100% { background-position: 0 0; }
 } */
 
+
+/*
+This is the extracted copied part responsible for showing & hiding the submenu.
+*/
+
+/* .nav__submenu {
+  display: none;
+}
+
+.nav__menu-item:hover {
+  
+}
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+nav ul {
+  
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+}
+
+.nav {
+  display: inline-block;
+  margin: 2rem auto 0;
+  background: rgb(10, 5, 80);
+  color: #fff;
+  text-align: left;
+  
+  
+}
+.nav a {
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+}
+  
+.nav__menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+  
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+
+  .nav__menu-item:hover {
+    background-color: blue;
+
+    /* .nav__submenu {
+      display: block;
+    } */
+  
+
+/*     
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: submenu-width;
+  background-color: blue;
+}
+    
+.nav__submenu-item {
+  /* &:hover {
+    background: rgba(#000, 0.1);
+ 
+/* &:hover {
+  background: rgba(#000, 0.1);
+} */
+/* .nav-menu:hover{
+  color: aqua !important;
+} */
+/* .nav-work:hover .nav__submenu {
+    display: block;
+}   */

@@ -1,12 +1,17 @@
 import React from 'react'
-import { FaWhatsapp, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa"
-import Strape from './Strape'
+import { FaWhatsapp, FaTwitter, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa"
+// import Strape from './Strape'
 
 export default function Footer() {
     return (<>
         {/* <div className='strape shadow-md h-[30px] w-full'><img className='' src={bg2} alt="" /></div> */}
-        <Strape/>
+        {/* <Strape/> */}
+
         <footer>
+        <div className='h-[1px] mb-[12px] bg-[#353535]'/>
+        <div className='h-[1px] bg-[#353535]'/>
+
+        
             
             <div className='p-20 pl-[6rem] bg-black text-gray-500 outline-red-500'>
                 <div className='max-w-7xl mx-auto'>
@@ -55,7 +60,7 @@ export default function Footer() {
                             </table>
                         </div>
                         <div className='mb-5'>
-                            <h4 className='pb-4 font-bold text-xl'>Company</h4>
+                            <h4 className='pb-4 font-bold text-xl'>LOCATION</h4>
                             <p className='pb-4 text-gray-500'>A123 Find city <br></br>sambalpur, PB 12345 <br></br> India </p>
                         </div>
                         <div className='mb-5'>
@@ -70,7 +75,7 @@ export default function Footer() {
                                 <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaTwitter /></a>
                                 <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaLinkedin /></a>
                                 <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaInstagram /></a>
-                                <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaYoutube /></a>
+                                <a href="http://" className='w-9 h-9 rounded-full bg-gray-500 hover:bg-gray-600 mx-1 inline-block pt-2 pl-2'><FaFacebook /></a>
                             </div>
 
                             <div className='flex flex-col pt-5'>

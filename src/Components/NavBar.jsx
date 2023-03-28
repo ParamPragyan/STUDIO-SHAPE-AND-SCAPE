@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./NavBar.css";
+// import WorkBar from "./Work/WorkSub/WorkBar";
 
 
 const NavBar = () => {
@@ -67,13 +68,14 @@ const NavBar = () => {
               </NavLink>
             </li>
              <li onClick={handleClick}>
-              <NavLink className="nav-link" to="/services">
+              <NavLink className="nav-link " to="/services">
                  Services
               </NavLink>
             </li>
             <li onClick={handleClick}>
-              <NavLink className="nav-link" to="/work">
+              <NavLink className="nav-link nav-Work" to="/work">
                 Works
+                {/* <WorkBar/> */}
               </NavLink>
             </li>
             <li onClick={handleClick}>

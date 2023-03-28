@@ -3,22 +3,28 @@
     {
       "heading": "ARCHITECTURE",
       "txt": "ARCHITECTURE",
-      "link": "/"
+      "img":  "ser1.jpg",
+      "link" : "../assets/img-haboutCopy.webp"
     },
     {
       "heading": "INTERIOR",
       "txt": "INTERIOR",
-      "link": "/"
+      "link": "../assets/img-haboutCopy.webp",
+      "img":  "ser1.jpg"
+
     },
     {
       "heading": "LANDSCAPE",
       "txt": "LANDSCAPE",
-      "link": "/"
+      "link": "/",
+      "img":  "ser1.jpg"
+
     },
     {
-      "heading": "OTHERS",
-      "txt": "OTHERS",
-      "link": "/"
+      "heading": "CONSTRUCTION",
+      "txt": "CONSTRUCTION",
+      "link": "/",
+      "img":  "ser1.jpg"
     }
   ]
 }

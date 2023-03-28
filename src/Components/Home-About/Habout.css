@@ -20,15 +20,15 @@
     position: absolute;
     border: 2px solid green;
     border-radius: 10px;
-    margin-top: 2rem;
-    margin-left: 40rem;
+    top: 114rem;
+    margin-left: 9rem;
     transition:all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    z-index: 4"";
+    z-index: 4;
   }
-  .imgh:hover ~ .imgh_border {
+  #a:hover .imgh_border {
     border: 3px solid white;
-    margin-top: 4rem;
-    margin-left: 50rem;
+    margin-left: 7.6rem;
+    top: 112.6rem;
   }
   /* .imgh::before {
     content: '';

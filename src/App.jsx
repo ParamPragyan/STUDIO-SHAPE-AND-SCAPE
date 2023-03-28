@@ -1,13 +1,11 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { ScrollRestoration } from "react-router-dom";
-
 
 import NavBar from './Components/NavBar';
 import Home from "./Components/Home"
 import About from './Components/About';
 import Services from './Components/Services';
-import Work from './Components/Work';
+import Work from './Components/Work/Work';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import ScrollToTop from './Components/ScrollToTop';
