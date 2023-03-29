@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Habout.css"
-import img from "../../assets/img-habout.jpg"
+import img from "../../../assets/img-habout.jpg"
 
 const Habout = () => {
   return ( 

@@ -28,6 +28,7 @@
 
 }
 
+
 .Toggle {
   /* background-image: url(../../public/Logo.png); */
   font-family: N-B-1;
@@ -59,6 +60,10 @@
 .active {
   color: rgb(91, 211, 26) !important;
 }
+
+/* .nav-link .nav-bar:hover{
+  display: block;
+} */
 
 .hamburger {
   display: none;

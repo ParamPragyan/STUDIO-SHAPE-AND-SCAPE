@@ -1,7 +1,7 @@
 import React from 'react'
-import ContactForm from './ContactForm'
+import ContactForm from './ContactForm/ContactForm'
 import "./Contact.css"
-import bgi from "../assets/heroimg.png"
+import bgi from "../../assets/heroimg.png"
 
 const Contact = () => {
   return (

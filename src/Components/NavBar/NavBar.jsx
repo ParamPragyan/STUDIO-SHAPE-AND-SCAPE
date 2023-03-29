@@ -3,8 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./NavBar.css";
-// import WorkBar from "./Work/WorkSub/WorkBar";
-
+import WorkBar from "../Work/WorkSub/WorkBar";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -48,7 +47,7 @@ const NavBar = () => {
     //   </nav>
     // </div>
 
-    <div className='header-bg'>
+    <div className="header-bg">
       <div>
         <div className="nav-bar">
           {/* <h1 className="logo">Logo</h1> */}
@@ -67,23 +66,22 @@ const NavBar = () => {
                 About
               </NavLink>
             </li>
-             <li onClick={handleClick}>
+            <li onClick={handleClick}>
               <NavLink className="nav-link " to="/services">
-                 Services
+                Services
               </NavLink>
             </li>
             <li onClick={handleClick}>
-              <NavLink className="nav-link nav-Work" to="/work">
+              <NavLink className="nav-link nav-Work " to="/work">
                 Works
-                {/* <WorkBar/> */}
               </NavLink>
+              <WorkBar />
             </li>
             <li onClick={handleClick}>
               <NavLink className="nav-link" to="/contact">
                 Contact
               </NavLink>
             </li>
-
           </ul>
 
           <div className="number text-white">+91 1234567890</div>

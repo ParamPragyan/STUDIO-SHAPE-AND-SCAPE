@@ -1,8 +1,8 @@
 import React from 'react'
 
 import "./ContactForm.css"
-import BGI from "../assets/bg1.jpg"
-import BGI2 from "../assets/shape & scape (1).gif"
+import BGI from "../../../assets/bg1.jpg"
+import BGI2 from "../../../assets/shape & scape (1).gif"
 const ContactForm = () => {
   return (
     <div className='section'>

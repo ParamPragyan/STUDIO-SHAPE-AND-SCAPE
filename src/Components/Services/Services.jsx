@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-import bgi from "../assets/services-img1.jpg";
-import data from "./data.json";
+import bgi from "../../assets/services-img1.jpg";
+import data from "../data.json";
 import "./Services.css";
 
 const Services = () => {

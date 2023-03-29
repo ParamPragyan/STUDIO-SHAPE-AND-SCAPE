@@ -1,13 +1,13 @@
 import React from "react";
 import ChooseUs from "./ChooseUs/ChooseUs";
 import "./Home.css";
-import Slider1 from "./Slider-hero/Slider1";
-import Slider2 from "./Slider-second/Slider2";
-import Stats from "./Slider-second/Stats/Stats";
-import Habout from "./Home-About/Habout";
+import Slider1 from "../Slider-hero/Slider1";
+import Slider2 from "../Slider-second/Slider2";
+import Stats from "../Slider-second/Stats/Stats";
+import Habout from "../Home/Home-About/Habout";
 import { FaWhatsapp } from "react-icons/fa";
-import Logo from "../assets/Logo.png";
-import landing_img from "../assets/home-1.jpg"
+import Logo from "../../assets/Logo.png";
+import landing_img from "../../assets/home-1.jpg"
 
 const Home = () => {
   return (
