@@ -213,3 +213,11 @@ nav ul {
 /* .nav-work:hover .nav__submenu {
     display: block;
 }   */
+
+.nav__submenu {
+  display: none;
+}
+
+#nav-work:hover .nav__submenu{
+  display: block;
+}

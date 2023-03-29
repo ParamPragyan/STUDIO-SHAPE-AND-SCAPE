@@ -71,8 +71,8 @@ const NavBar = () => {
                 Services
               </NavLink>
             </li>
-            <li onClick={handleClick}>
-              <NavLink className="nav-link nav-Work " to="/work">
+            <li id="nav-work" onClick={handleClick}>
+              <NavLink className="nav-link "  to="/work">
                 Works
               </NavLink>
               <WorkBar />
