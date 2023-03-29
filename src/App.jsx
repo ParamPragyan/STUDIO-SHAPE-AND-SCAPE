@@ -9,6 +9,10 @@ import Work from "./Components/Work/Work";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
+import Commercial from "./Components/Work/WorkSub/Commercial";
+import Residential from "./Components/Work/WorkSub/Residential";
+import Interior from "./Components/Work/WorkSub/Interior";
+import HotelResort from "./Components/Work/WorkSub/HotelResort";
 
 // import Slider2 from './Components/Slider-second/Slider2';
 
@@ -24,6 +28,10 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/commercial" element={<Commercial />} />
+          <Route path="/residential" element={<Residential />} />
+          <Route path="/interior" element={<Interior />} />
+          <Route path="/hotelresort" element={<HotelResort />} />
         </Routes>
       </div>
       {/* <Slider2/> */}
