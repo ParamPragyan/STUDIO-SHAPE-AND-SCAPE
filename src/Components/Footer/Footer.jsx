@@ -85,9 +85,9 @@ export default function Footer() {
                             </div>
 
                         </div>
-                        <div className='mb-5 pl-[10rem]'>
+                        <div className='mb-5 pl-[10rem] '>
                             <h4 className='pb-4  font-bold text-xl'>USEFUL LINKS</h4>
-                            <ul className='text-gray-500 cursor-pointer'>
+                            <ul className='text-gray-500 cursor-pointer '>
                                 <li className='pb-4 hover:text-white '>Home</li>
                                 <li className='pb-4 hover:text-white'>About</li>
                                 <li className='pb-4 hover:text-white'>Services</li>

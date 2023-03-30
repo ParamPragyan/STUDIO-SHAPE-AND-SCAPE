@@ -1,58 +1,62 @@
 import React from "react";
-import "./ChooseUs.css"
+import "./ChooseUs.css";
+import Fade from "react-reveal/Fade";
 
 export default function ChooseUs() {
   return (
-    <section className="section p-20  bg-black text-[#cdc8c8]">
-      <div className="main-container-2  flex  justify-center items-center">
-        <div className="w-full">
-          <img src="bg12.jpg" alt=""  className=" h-[25rem] object-cover relative"/>
+    <section className="section h-auto bg-black text-gray-100">
+      <h1 className=" tag text-5xl pl-[18rem] pb-[2.5rem]">Why choose us</h1>
+
+      <div className="flex gap-4">
+        <div className="flex flex-col  p-4 gap-4 w-1/2 overflow-x-hidden ">
+          <Fade left>
+            <div className="border-white rounded-2xl box ">
+              <h1 className="p-4 text-4xl">Why choose you</h1>
+              <hr className="border-[2px]" />
+              <p className="p-10">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
+                provident ex? Ducimus itaque placeat sunt distinctio, adipisci
+                tempore tempora numquam obcaecati laudantium vero. Quod a, earum
+                necessitatibus molestias suscipit voluptatum.
+              </p>
+            </div>
+            <div className="border-gray-900 rounded-2xl box">
+              <h1 className="text-4xl p-4">Why choose you</h1>
+              <hr className="border-[2px]" />
+              <p className="p-10">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
+                provident ex? Ducimus itaque placeat sunt distinctio, adipisci
+                tempore tempora numquam obcaecati laudantium vero. Quod a, earum
+                necessitatibus molestias suscipit voluptatum.
+              </p>
+            </div>
+          </Fade>
         </div>
-
-
-        <div className="flex flex-col main-content pl-20">
-          <h1 className="th main-heading-2 pb-[5rem] text-6xl ">WHY CHOOSE US</h1>
-
-          <div className="text-content ">
-            <div className="  pb-4 flex justify-center items-center">
-              <div className="pr-4">
-                <h3 className="th pb-4 text-2xl  font-bold">We create solution</h3>
-                <p className="tt pr-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae dolorem accusantium hic harum obcaecati tempore! 
-                </p>
-              </div>
-
-              <div>
-                <h3 className="th pb-4 text-2xl  font-bold">Carefully Planned</h3>
-                <p className="tt pr-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptate distinctio porro iusto delectus perspiciatis
-                  similique.vhgchchcy
-                </p>
-              </div>
-
+        <div className="flex flex-col  p-4 w-1/2 gap-4 ">
+          <Fade right>
+            <div className="border-gray-900 rounded-2xl  box">
+              <h1 className="p-4 text-4xl">Why choose you</h1>
+              <hr className="border-[2px]" />
+              <p className="p-10">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
+                provident ex? Ducimus itaque placeat sunt distinctio, adipisci
+                tempore tempora numquam obcaecati laudantium vero. Quod a, earum
+                necessitatibus molestias suscipit voluptatum.
+              </p>
             </div>
-            <div className="pt-4 flex justify-center items-center">
-              <div className="tt pr-4">
-                <h3 className="th pb-4 text-2xl font-bold">Perfect Design</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                  eius blanditiis nesciunt odit excepturi veritatis.
-                </p>
-              </div>
-              <div>
-                <h3 className="th pb-4 text-2xl font-bold">Well Experience</h3>
-                <p className="tt pr-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat eius sint ad facere, recusandae perspiciatis?
-                </p>
-              </div>
+            <div className="border-gray-700 rounded-2xl box">
+              <h1 className="p-4 text-4xl">Why choose you</h1>
+              <hr className="border-[2px]" />
+              <p className="p-10">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
+                provident ex? Ducimus itaque placeat sunt distinctio, adipisci
+                tempore tempora numquam obcaecati laudantium vero. Quod a, earum
+                necessitatibus molestias suscipit voluptatum.
+              </p>
             </div>
-            </div>
-          </div>
+          </Fade>
         </div>
-      
+      </div>
     </section>
   );
 }
