@@ -1,21 +1,17 @@
 .number {
   font-family: 'Chakra Petch', sans-serif;
 }
-  .header-bg {
+  .header {
     position: fixed;
     width: 100%;
     padding-right: 8rem;
     padding-left: 8rem;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.989);
     transition: 0.5s;
 
     z-index: 1000;
 }
 
-.header-bg {
-    background-color: rgb(0, 0, 0);
-    transition: 0.5s;
-}
 .nav-bar {
   display: flex;
   align-items: center;

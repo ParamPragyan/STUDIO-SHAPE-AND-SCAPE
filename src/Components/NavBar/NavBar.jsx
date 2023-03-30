@@ -47,7 +47,7 @@ const NavBar = () => {
     //   </nav>
     // </div>
 
-    <div className="header-bg">
+    <div className="header">
       <div>
         <div className="nav-bar">
           {/* <h1 className="logo">Logo</h1> */}
