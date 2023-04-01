@@ -1,14 +1,14 @@
-import React from "react";
-import Grid from "./Grid/Grid";
+// import React from "react";
+// import Grid from "./Grid/Grid";
 
 
-const Work = () => {
-  return (
-    <section id="aaa" className="hero bg-sky-700">
+// const Work = () => {
+//   return (
+//     <section id="aaa" className="hero bg-sky-700">
      
-      <Grid />
-    </section>
-  );
-};
+//       <Grid />
+//     </section>
+//   );
+// };
 
-export default Work;
+// export default Work;

@@ -8,7 +8,7 @@ export default function ChooseUs() {
       <h1 className=" tag text-5xl pl-[18rem] pb-[2.5rem]">Why choose us</h1>
 
       <div className="flex gap-4">
-        <div className="flex flex-col  p-4 gap-4 w-1/2 overflow-x-hidden ">
+        <div className="flex flex-col  p-4 gap-4 w-1/2  ">
           <Fade left>
             <div className="border-white rounded-2xl box ">
               <h1 className="p-4 text-4xl">Why choose you</h1>
@@ -20,8 +20,8 @@ export default function ChooseUs() {
                 necessitatibus molestias suscipit voluptatum.
               </p>
             </div>
-            <div className="border-gray-900 rounded-2xl box">
-              <h1 className="text-4xl p-4">Why choose you</h1>
+            <div className="border-white rounded-2xl box">
+              <h1 className="p-4 text-4xl ">Why choose you</h1>
               <hr className="border-[2px]" />
               <p className="p-10">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
@@ -34,7 +34,7 @@ export default function ChooseUs() {
         </div>
         <div className="flex flex-col  p-4 w-1/2 gap-4 ">
           <Fade right>
-            <div className="border-gray-900 rounded-2xl  box">
+            <div className="border-white rounded-2xl  box">
               <h1 className="p-4 text-4xl">Why choose you</h1>
               <hr className="border-[2px]" />
               <p className="p-10">
@@ -44,7 +44,7 @@ export default function ChooseUs() {
                 necessitatibus molestias suscipit voluptatum.
               </p>
             </div>
-            <div className="border-gray-700 rounded-2xl box">
+            <div className="border-white rounded-2xl box">
               <h1 className="p-4 text-4xl">Why choose you</h1>
               <hr className="border-[2px]" />
               <p className="p-10">
