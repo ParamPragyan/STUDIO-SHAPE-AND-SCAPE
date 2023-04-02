@@ -72,9 +72,9 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li id="nav-work" >
-              <div className="nav-link cursor-pointer">
+              <NavLink to="/" className="nav-link cursor-pointer">
                 Works
-              </div>
+              </NavLink>
               <WorkBar />
             </li>
             <li onClick={handleClick}>
