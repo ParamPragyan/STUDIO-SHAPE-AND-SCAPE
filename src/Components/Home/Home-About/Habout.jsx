@@ -6,9 +6,10 @@ import img from "../../../assets/img-habout.jpg"
 
 const Habout = () => {
   return ( 
-    <section className='pt-[5rem]'>
-           <h1 className='heading'>About</h1>
-         <div className='pl-[15rem] pr-[15rem] pt-[5rem] pb-[10rem] flex justify-center items-center outer'>
+    <section className=' bg-[#080808]'>
+      <div className='bg-[#080808] h-[3rem] flex '><h1 className=' ml-[8rem] px-[1rem] text-[2rem] text-black bg-white font-[Oswald]'>About</h1>
+</div>
+         <div className='pl-[15rem] pr-[15rem] pt-[7rem] pb-[10rem] flex justify-center items-center outer'>
              
 
         <div className="txt-habout flex-1"><p className='text-[#fff]'>

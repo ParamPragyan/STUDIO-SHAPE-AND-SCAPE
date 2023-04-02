@@ -20,7 +20,7 @@
     position: absolute;
     border: 2px solid green;
     border-radius: 10px;
-    top: 114rem;
+    top: 106.7rem;
     margin-left: 9rem;
     transition:all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     z-index: 4;
@@ -28,7 +28,7 @@
   #a:hover .imgh_border {
     border: 3px solid white;
     margin-left: 7.6rem;
-    top: 112.6rem;
+    top: 105.35rem;
   }
   /* .imgh::before {
     content: '';
