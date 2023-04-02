@@ -1,8 +1,7 @@
 import React from "react";
 // import Data from "../Grid.json";
 import "./Grid.css"
-import Fade from "react-reveal/Fade"
-import reactReveal from "react-reveal";
+
 
 // import img1 from "./../../assets/aj.jpg"
 // import img2 from "./../../assets/aj2.jpg"
