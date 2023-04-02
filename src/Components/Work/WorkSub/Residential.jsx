@@ -1,8 +1,9 @@
 import React from 'react'
+import Grid from "../Grid/Grid";
 
 function Residential() {
   return (
-    <div>Residential</div>
+    <Grid/>
   )
 }
 
