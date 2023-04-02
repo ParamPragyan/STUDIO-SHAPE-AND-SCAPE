@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./ContactForm.css";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 // import BGI from "../../../assets/bg1.jpg"
 // import BGI2 from "../../../assets/shape & scape (1).gif"
 const ContactForm = () => {
@@ -9,7 +9,7 @@ const ContactForm = () => {
     <div className="section">
       <div className="contact-content grid-container">
         <div>
-          <Fade left>
+        
             <p>
               Lorem ipsum dolor sit amet,{" "}
               <span className="special-word">consectetuer</span> adipiscing
@@ -32,14 +32,14 @@ const ContactForm = () => {
               parturient montes, nascetur ridiculus mus. Donec quam felis,
               ultricies nec, pellentesque eu, pretium quis, sem.
             </p>
-          </Fade>
+        
         </div>
 
         <div>
           {/* <h1 className='heading-secondary'>
                     Mail <span>us</span>
                 </h1> */}
-          <Fade right>
+          
             <form className="form pt-[4rem]">
               <div className="form-field name-email">
                 <div>
@@ -69,7 +69,7 @@ const ContactForm = () => {
             </form>
 
             <button className="btn">Send Request</button>
-          </Fade>
+      
         </div>
       </div>
     </div>
