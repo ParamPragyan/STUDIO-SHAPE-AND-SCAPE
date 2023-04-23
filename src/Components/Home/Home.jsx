@@ -11,14 +11,14 @@ import landing_img from "../../assets/home-1.jpg"
 
 const Home = () => {
   return (
-    <section className="one pt-[8rem] text-[#fff] bg-black">
+    <section className="one home w-full pt-[8rem] text-[#fff] bg-black">
       <div className="flex justify-between pl-[7.5rem] pr-[8rem] items-center main_landing_bar">
         <div className="flex items-center left_part">
           <div className="mr-[1rem]">
             
             <img
               src={Logo}
-              className=" mt-[20px] h-[15.3rem] w-[15.3rem] "
+              className=" mt-[20px] min-h-[15.3rem] h-[15.3rem] min-w-[15.3rem] w-[15.3rem] "
               alt=""
             />
           </div>
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
       </div>
       <div className="landing_img mr-[8rem] pt-[6rem] pb-[5rem]">
-        <img className="img mr-[5rem] w-[1789.2px] h-[680px]" src={landing_img} alt="" />
+        <img className="img mr-[5rem] w-[100rem] h-[45rem]" src={landing_img} alt="" />
       </div>
 
 

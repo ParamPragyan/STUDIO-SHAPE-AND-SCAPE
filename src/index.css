@@ -221,3 +221,16 @@ nav ul {
 #nav-work:hover .nav__submenu{
   display: block;
 }
+
+@media (max-width: 400px){
+  html {
+      font-size: 30%;
+  }
+
+  .home{
+    padding-top: 20rem;
+  }
+  .landing-img img {
+
+  }
+}

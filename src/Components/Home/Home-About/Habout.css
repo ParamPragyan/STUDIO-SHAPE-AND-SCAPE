@@ -15,8 +15,8 @@
   }
  
   .imgh_border {
-    width: 360px;
-    height: 360px;
+    width: 22.5rem;
+    height: 22.5rem;
     position: absolute;
     border: 2px solid green;
     border-radius: 10px;
