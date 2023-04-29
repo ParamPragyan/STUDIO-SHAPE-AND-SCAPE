@@ -222,9 +222,18 @@ nav ul {
   display: block;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   html {
       font-size: 30%;
+  }
+  .fixed-icon{
+    top: 135rem;
+  }
+  .top_txt{
+    font-size: 0;
+  }
+  .right_part{
+    display: none;
   }
 
   .home{

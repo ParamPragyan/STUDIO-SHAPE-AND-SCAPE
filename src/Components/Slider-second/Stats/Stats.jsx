@@ -9,7 +9,7 @@ const Stats = () => {
   return (
     <>
     <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
-      <section className="flex justify-around items-center p-20 bg-black text-white stats">
+      <section className="stats flex justify-around items-center p-20 bg-black text-white">
      
         <div className=" flex flex-col items-center total-projects">
           <h1>

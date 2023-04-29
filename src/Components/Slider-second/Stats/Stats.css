@@ -8,3 +8,20 @@
     font-size: .75rem;
     color: #666773;
 }
+
+
+@media (max-width: 500px){
+    .stats{
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+    }
+    .total-projects{
+        align-items: flex-start;
+    }
+    .stats h1{
+        font-size: 8rem;
+    }
+    .stats p {
+        font-size: 1.5rem;
+    }
+}

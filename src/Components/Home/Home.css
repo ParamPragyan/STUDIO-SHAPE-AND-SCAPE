@@ -86,4 +86,24 @@
     }
 
 
-   
+    @media (max-width: 500px){
+        html {
+            font-size: 35%;
+        }
+        .main_landing_bar{
+            padding-left: 4.5rem;
+            padding-right: 4.5rem;
+            padding-bottom: 2rem;
+        }
+        .logo{
+            height: 20rem;
+            width: 20rem;
+            margin-bottom: 2rem;
+        }
+        .top_txt{
+          font-size:14rem;
+        }
+        .bottom_txt{
+            font-size:8.1rem;
+          }
+    }

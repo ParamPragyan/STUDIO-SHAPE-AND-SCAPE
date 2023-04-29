@@ -18,7 +18,7 @@ const Home = () => {
             
             <img
               src={Logo}
-              className=" mt-[20px] min-h-[15.3rem] h-[15.3rem] min-w-[15.3rem] w-[15.3rem] "
+              className="logo mt-[20px] min-h-[15.3rem] h-[15.3rem] min-w-[15.3rem] w-[15.3rem] "
               alt=""
             />
           </div>
