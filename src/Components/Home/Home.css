@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Lato:wght@900&family=Open+Sans:wght@800&display=swap');
+
 .wa {
     position: absolute;
 }
@@ -102,6 +104,8 @@
         }
         .top_txt{
           font-size:14rem;
+          font-family: 'Open Sans', sans-serif;
+
         }
         .bottom_txt{
             font-size:8.1rem;
@@ -119,6 +123,8 @@
         }
         .top_txt{
           font-size:13rem;
+          font-family: 'Open Sans', sans-serif;
+
         }
         .bottom_txt{
             font-size:7.5rem;
@@ -140,6 +146,8 @@
         }
         .top_txt{
           font-size:12rem;
+          font-family: 'Open Sans', sans-serif;
+
         }
         .bottom_txt{
             font-size:6.9rem;
@@ -161,7 +169,8 @@
         }
         .top_txt{
           font-size:11rem;
-          font-family: 'Open Sans', sans-serif;        }
+          font-family: 'Open Sans', sans-serif;
+                }
         .bottom_txt{
             font-size:6.35rem;
           }
