@@ -224,7 +224,6 @@ nav ul {
 
 @media (max-width: 500px){
   html {
-      font-size: 30%;
   }
   .fixed-icon{
     top: 135rem;
@@ -241,5 +240,10 @@ nav ul {
   }
   .landing-img img {
 
+  }
+}
+
+@media (max-width: 350px){
+  html{
   }
 }

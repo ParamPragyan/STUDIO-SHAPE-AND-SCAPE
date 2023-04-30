@@ -86,7 +86,7 @@
     }
 
 
-    @media (max-width: 500px){
+    @media (max-width: 500px) and (min-width: 416px){
         html {
             font-size: 35%;
         }
@@ -107,3 +107,67 @@
             font-size:8.1rem;
           }
     }
+
+    @media (max-width: 416px) and (min-width: 380px) {
+        html{
+          font-size: 30%;
+        }
+        .logo{
+            height: 20rem;
+            width: 20rem;
+            margin-bottom: 2rem;
+        }
+        .top_txt{
+          font-size:13rem;
+        }
+        .bottom_txt{
+            font-size:7.5rem;
+          }
+          .main_landing_bar{
+            padding-left: 4.5rem;
+            padding-right: 4.5rem;
+            padding-bottom: 2rem;
+        }
+      }
+      @media (max-width: 380px) and (min-width: 350px) {
+        html{
+          font-size: 30%;
+        }
+        .logo{
+            height: 18rem;
+            width: 18rem;
+            margin-bottom: 2rem;
+        }
+        .top_txt{
+          font-size:12rem;
+        }
+        .bottom_txt{
+            font-size:6.9rem;
+          }
+          .main_landing_bar{
+            padding-left: 4rem;
+            padding-right: 4.5rem;
+            padding-bottom: 2rem;
+        }
+      }
+      @media (max-width: 350px) and (min-width: 310px) {
+        html{
+          font-size: 30%;
+        }
+        .logo{
+            height: 16.5rem;
+            width: 16.5rem;
+            margin-bottom: 2rem;
+        }
+        .top_txt{
+          font-size:11rem;
+        }
+        .bottom_txt{
+            font-size:6.35rem;
+          }
+          .main_landing_bar{
+            padding-left: 4rem;
+            padding-right: 4.5rem;
+            padding-bottom: 2rem;
+        }
+      }
