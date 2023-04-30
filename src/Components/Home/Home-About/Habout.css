@@ -60,3 +60,32 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 } */
+
+@media (max-width: 500px) and (min-width: 300px){
+  .outer{
+    flex-direction: column-reverse;
+    padding:6rem;
+    margin: 0;
+  }
+  .head-txt{
+    font-size: 4rem;
+  }
+  .right-habout{
+    padding-top: 10rem;
+  }
+
+  .imgh{
+    
+    width: 60rem;
+    height: 60rem;
+    margin-left: 0;
+    max-width: none;
+  }
+  .txt-habout{
+    padding-top: 4rem;
+  }
+  p {
+    padding: 0;
+    font-size: 2rem;
+  }
+}
