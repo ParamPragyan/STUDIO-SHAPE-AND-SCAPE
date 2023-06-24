@@ -13,6 +13,7 @@ import Commercial from "./Components/Work/WorkSub/Commercial";
 import Residential from "./Components/Work/WorkSub/Residential";
 import Interior from "./Components/Work/WorkSub/Interior";
 import HotelResort from "./Components/Work/WorkSub/HotelResort";
+import Person1 from "./Components/Work/WorkSub/Person1";
 
 // import Slider2 from './Components/Slider-second/Slider2';
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/residential" element={<Residential />} />
           <Route path="/interior" element={<Interior />} />
           <Route path="/hotelresort" element={<HotelResort />} />
+          <Route path="/person1" element={<Person1/>}/>
         </Routes>
       </div>
       {/* <Slider2/> */}

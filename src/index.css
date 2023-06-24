@@ -30,6 +30,10 @@ html {
 .body{
   background-color: black;
 }
+
+.drop2{
+  filter: drop-shadow(0 0 5px white);
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
